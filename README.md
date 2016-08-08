@@ -2,9 +2,9 @@
 
 *Use Atom's One Dark syntax colors in your Jekyll powered blog!*
 
-It's LESS file which can generate a - Pygments, Rouge compatible - stylesheet from Atom editor's One Dark syntax theme (and any theme based on it, for example One Dark Vivid, Firewatch, etc.).
+It's LESS file which can be compiled to a - Pygments, Rouge compatible - stylesheet from Atom editor's One Dark syntax theme (and any theme based on it, for example One Dark Vivid, Firewatch, etc.).
 
-Download the stylesheet files or generate a new one from any Atom syntax theme which based on One Dark (the variable names in `colors.less` must match with One Dark's)
+Download the stylesheet files or compile a new one from any Atom syntax theme which based on One Dark (the variable names in `colors.less` must match with One Dark's)
 
 ## Generate a stylesheet file
 
@@ -15,7 +15,7 @@ Download the stylesheet files or generate a new one from any Atom syntax theme w
 5. Run `lessc syntax.less syntax.css --clean-css`
 6. Use the `syntax.css`
 
-Sample highlighted c# snippet:
+### Sample highlighted c# snippet
 ![Sample code highlighted by Jekyll/Rouge](sample-one-dark.png)
 
 It's not final and in case you find any error feel free to create a PR. :)
