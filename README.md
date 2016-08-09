@@ -6,7 +6,7 @@ It's LESS file which can be compiled to a - Pygments, Rouge compatible - stylesh
 
 Download the stylesheet files or compile a new one from any Atom syntax theme which based on One Dark (the variable names in `colors.less` must match with One Dark's)
 
-## Compile a stylesheet file
+## Create a new syntax stylesheet
 
 1. `npm install -g lessc less-plugin-clean-css`
 2. Clone this repository
