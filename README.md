@@ -8,14 +8,11 @@ Download the stylesheet files or compile a new one from any Atom syntax theme wh
 
 ## Create a new syntax stylesheet
 
-1. `npm install -g lessc less-plugin-clean-css`
+1. `npm install -g less less-plugin-clean-css`
 2. Clone this repository
 3. Download the `colors.css` file from the syntax theme's repository (for example https://github.com/atom/one-dark-syntax/blob/master/styles/colors.less in case of One-Dark)
 4. Put the previously downloaded file next to `syntax.less`
 5. Run `lessc syntax.less syntax.css --clean-css`
 6. Use the `syntax.css`
 
-### Sample highlighted c# snippet
-![Sample code highlighted by Jekyll/Rouge](sample-one-dark.png)
-
-It's not final and in case you find any error feel free to create a PR. :)
+It's not final and in case you find any error/improvement feel free to create a PR. :)
